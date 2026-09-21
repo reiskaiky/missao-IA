@@ -120,3 +120,8 @@ function mostraResultado(){
 }
 
 mostraPergunta();
+
+function aleatorio (lista){
+    const posicao = math.floor(Math.rondom()*lista.length);
+    return lista[posicao];
+}
